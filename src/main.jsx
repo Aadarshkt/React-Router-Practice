@@ -5,6 +5,7 @@ import './main.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Expenses from './routes/expenses';
 import Invoices from './routes/invoices';
+import Invoice from './routes/invoice';
 
 let rootElement = document.getElementById('root');
 ReactDOM.render(

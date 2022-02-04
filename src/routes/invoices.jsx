@@ -55,8 +55,3 @@ export default function Invoices() {
   );
 }
 
-function QueryNavLink({ to, ...props }) {
-  let location = useLocation();
-  return <NavLink to={to + location.search} {...props} />;
-}
-
